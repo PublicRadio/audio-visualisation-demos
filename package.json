@@ -1,0 +1,28 @@
+{
+  "name": "audio-visualization-demos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.babel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ls ./src/__public__/music > ./src/__public__/tracks.txt; ./node_modules/.bin/webpack-dev-server --content-base ./src/__public__ --inline --hot"
+  },
+  "dependencies": {
+    "babel-runtime": "^5.8.20",
+    "react": "^0.13.3",
+    "react-canvas": "0.0.1",
+    "react-redux": "^0.9.0",
+    "react-three": "^0.6.1",
+    "redux": "^1.0.1",
+    "redux-thunk": "^0.1.0",
+    "shader-loader": "^1.1.3",
+    "three": "^0.70.1"
+  },
+  "devDependencies": {
+    "babel-core": "^5.8.22",
+    "babel-loader": "^5.3.2",
+    "react-hot-loader": "^1.2.8",
+    "webpack": "^1.11.0",
+    "webpack-dev-server": "^1.10.1"
+  }
+}
